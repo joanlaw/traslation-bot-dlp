@@ -1,6 +1,8 @@
 // Importar las librerías necesarias
 const Discord = require('discord.js');
 const WebSocket = require('ws');
+require('dotenv').config();
+
 
 // Configurar el cliente de Discord con intenciones
 const client = new Discord.Client({
