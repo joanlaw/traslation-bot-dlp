@@ -1,0 +1,18 @@
+# Ignorar el directorio de node_modules
+node_modules/
+
+# Ignorar archivos de entorno
+.env
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar la carpeta de build, si tienes una
+/dist
+
+# Ignorar archivos de IDE (dependiendo de tu editor)
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
